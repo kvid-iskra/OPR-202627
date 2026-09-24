@@ -34,18 +34,4 @@ for v in vprasanja:
     else:
         print("Odgovor je napačen!")
 
-print("Osvojili ste {tocke} točk")
-
-"""
-VPRAŠANJE?
- 
-ODGOVOR 1
-ODGOVOR 2
-ODGOVOR 3
-ODGOVOR 4
- 
-Odgovor: ??
- 
-Pravilno/napačno
-BONUS: število točk
-"""
+print(f"Osvojili ste {tocke} točk")
