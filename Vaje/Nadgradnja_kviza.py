@@ -60,6 +60,8 @@ for v in vprasanja:
     for i, odgovor in enumerate(izpis_odgovori):
         print(f"{i + 1} - {odgovor}")
 
+    odgovor = int(input("Vnesi številko odgovora: "))
+
     if izpis_odgovori[odgovor - 1] == pravilen_izpis:
         print("Odgovor je pravilen!")
         tocke += 1
